@@ -1,8 +1,3 @@
-// const { PI } = Math;
-
-// exports.area = (r) => PI * r ** 2;
-
-// exports.circumference = (r) => 2 * PI * r;
 
 const express = require('express');
 const{login, register, getSpecificUser, Update, Delete} = require('../controller/usercontroller');

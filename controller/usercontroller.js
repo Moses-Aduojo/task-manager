@@ -80,6 +80,9 @@ const getSpecificUser = async(req, res)=>{
     }
 }
 
+
+
+//update specific user
 const Update = async( req, res,)=>{
     try{
         const findUser = await User.findById(req.userAuth)
@@ -95,7 +98,7 @@ const Update = async( req, res,)=>{
     }
 }
 
-
+// delete specific user
 const Delete= async( req, res,)=>{
     try{
         const findUser = await User.findById(req.userAuth)
